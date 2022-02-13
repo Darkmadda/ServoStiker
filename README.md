@@ -10,8 +10,8 @@ The plugin should be installed in the launchbox/plugins folder. Copy both the dl
 Config options include:
 ```
 	"default":"8-way", // default mode used when joystick isn't set or matched, and when game is exited and set to reset-on-exit
-	"8-way-name": "8-Way Joystick", // text to match in controller support for 8 way controller
-	"4-way-name": "4-Way Joystick", // text to match in controller support for 4 way controller
+	"8-way-name": "8-Way Joystick,Double 8-Way Joysticks,Half 8-Way Joystick,Atari Joystick,16-Way Joystick",// the name of the controllers(comma separated) in the controller support metadata
+	"4-way-name": "4-Way Joystick,Double 4-Way Joysticks,Half 4-Way Joystick,Double Horizontal Joysticks,Double Vertical Joysticks,Horizontal Joystick,Vertical Joystick",// the name of the controllers(comma separated) in the controller support metadata
 	"reset-on-exit": "True", // should the joystick be reset to the default when a game is exited
 	"joytrayPath": "C:\Program Files (x86)\JoyTray\JoyTray.exe" // the location of installed JoyTray.exe
   ```
